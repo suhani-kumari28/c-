@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Universitrty Registration Form </h1>
+    <p>please fill out the form below to register </p>
+    <hr>
+    <form>
+    <h2> Personal Details</h2>
+    <label for="name"> First Name:
+
+    </label> 
+    <textarea name="text" name="userfirstname" rows="3" cols="20" id="name" placeholder="e.g:suhani"></textarea>
+    <br><br>
+      <label for="name"> Last Name:
+    </label> 
+    <textarea name="text" name="userlastname" rows="3" cols="30" id="name" placeholder="kumari"></textarea>
+<br><br>
+<label for="dateofbirth"> Date of Birth </label>
+<input type="date" name="dateofbirth"id="dateofbirth">
+<br><br>
+<label>Gender:</label>
+<br><br>
+<label for="male"> male</label>
+<input type="radio" name="gender" id="male" value="male"> 
+<br>
+<label for="female"> female</label>
+<input type="radio" name="gender" id="female" value="female"> 
+<br>
+<label for="other"> other</label>
+<input type="radio" name="gender" id="other" value="other"> 
+<br><br>
+<label>uplod your photo:</label>
+<input type="file" name="file">
+<br>
+<hr>
+<h2> Contact Information </h2>
+<label for="email"> Email Address:</label>
+<input type="email" address="emailaddress" id="email" placeholder="you@example.com">
+<br><br>
+<label for="phonenumber"> Phone Number:</label>
+<input type="number" pnonenumber="Phonenumber" id="phonenumber" placeholder="1234567891">
+<br><br>
+<label for="mailingadd">Mailing Aaddress: </label>
+<br>
+<textarea name="Address" adress="mailing adress" rows="3" cols="20" id="mailingadd" placeholder="street address,city,state,zip code"> </textarea>
+<h2> Academic Information </h2>
+<label for="course"> select your course: </label>
+<select name="course" id=" course">
+    <option value="none ">none</option>
+    <option value="cse ">cse</option>
+    <option value="me ">me</option>
+    <option value="ce">ce</option>
+    <option value="ml ">ml</option> 
+    <option value="dsa ">dsa</option>
+     </select>
+     <br><br>
+     <label>Extracurricular Intrests:</label>
+     <br>
+     <label for="sports"> Sports:</label>
+     <input type="checkbox" name="sports" id="sports" value="sports">
+          <label for="music&art"> Music&Art:</label>
+     <input type="checkbox" name="M&A" id="music&art" value="music&art">
+          <label for="technologyclub"> Technology Club:</label>
+     <input type="checkbox" name="technologyclub" id="technologyclub" value="technologyclub">
+          <label for="volunteering"> Volunteering:</label>
+     <input type="checkbox" name="volunteering" id="volunteering" value="Volunteering">
+     <hr>
+     <h2>Create Your Account</h2>
+     <label for="password"> create a password:</label>
+     <input type="password" name="pass" id="password">
+     <br><br>
+     <label for="security"> security question:</label>
+     <select name="security questions" id="security">
+    <option value=" what is your favorite food "> what is your favorite food</option>
+    <option value="what is your pets name ">what is your pets name</option>
+    <option value="date of birth ">date of birth</option>
+    <option value="favorite book">favorite book </option>
+     </select>
+    <br><br>
+    <label for="securityans">security answer:</label>
+    <input type="text" name="security" id="securityans">
+    <br><br>
+    <label>i agree to the terms and conditions</label>
+    <input type="checkbox" condition="i agree to the terms and condition" value="i agree to the terms and conditions ">
+     <br><br>
+     <hr>
+     <button type="submit">register</button>
+     <button type="reset">clear form</button>
+
+     
+</form>
+
+</body>
+</html>
